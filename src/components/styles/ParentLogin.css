@@ -1,0 +1,25 @@
+#d1{
+    text-align: center;
+    padding-top: 90px;
+    margin-top: 10px;
+}
+#lb1{
+    padding:20px;
+}
+#lb2{
+    padding:20px;
+}
+#ip1{
+    padding-left: 20px;
+}
+#ip2{
+    padding-left: 20px;
+}
+#form1{
+    border: 1px solid black;
+    width:450px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+}

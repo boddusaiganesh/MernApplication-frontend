@@ -1,0 +1,20 @@
+#head{
+    text-align: center;
+}
+#nav{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+}
+#l1{
+    padding:50px;
+    font-size:larger;
+}
+#l2{
+    padding:50px;
+    font-size: larger;
+}
+#l3{
+    padding: 50px;;
+    font-size: larger;
+}
