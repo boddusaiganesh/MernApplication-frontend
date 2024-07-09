@@ -28,6 +28,10 @@ import TeacherProfile from './components/TeacherLogin/TeacherProfile';
 import CoursesHandled from './components/TeacherLogin/CoursesHandled';
 import UpdateMarks from './components/TeacherLogin/UpdateMarks';
 import UpdateAttendance from './components/TeacherLogin/UpdateAttendance';
+// Signup forms
+import StudentSignup from './components/StudentLogin/StudentSignup';
+import ParentSignup from './components/ParentLogin/ParentSignup';
+import TeacherSignup from './components/TeacherLogin/TeacherSignup';
 
 
 import CreateStudent from './components/CreateStudent';
@@ -59,6 +63,11 @@ function App() {
         <Route path='/register' element={<Signup />} ></Route>
         <Route path='/login' element={<Login />} ></Route>
         <Route path='/home' element={<Home />} ></Route>
+        <Route path='/student-signup' element={<StudentSignup />} ></Route>
+        <Route path='/parent-signup' element={<ParentSignup />} ></Route>
+
+        <Route path='/teacher-signup' element={<TeacherSignup />} ></Route>
+
         <Route path="/parent-login" element={<ParentLogin />} />
         <Route path="/teacher-login" element={<TeacherLogin />} />
         <Route path="/student-login" element={<StudentLogin />} />

@@ -50,7 +50,7 @@ function StudentLogin(){
     </form>
         </div>
         <p class="text-center" >Don't have an Account</p>
-      <Link to="/register" class="btn btn-default w-100 bg-light">Sign Up</Link>
+      <Link to="/student-signup" class="btn btn-default w-100 bg-light">Sign Up</Link>
   </div>
     
     )
